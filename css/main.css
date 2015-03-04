@@ -80,7 +80,7 @@ div {
 .panel h2 {
   margin: 0;
   max-height: 0;
-  padding: 3rem 0 5rem;
+  padding: 4rem 0;
 }
 
 .js-expand {
@@ -94,6 +94,41 @@ div {
 
   background-color: orange;
   border-radius: 50%;
+}
+
+.js-circle-bounce {
+    -webkit-animation: ball-bounce 750ms linear;
+}
+
+@-webkit-keyframes ball-bounce {
+  0% {
+    top: calc(50% - 50px);
+    right: 0;
+  }
+  50% {
+    top: calc(50% - 25px);
+    right: 4rem;
+  }
+  75% {
+    top: calc(50% - 50px);
+    right: 6.6rem;
+  }
+  87.5% {
+    top: calc(50% - 30px);
+    right: 8.4rem;
+  }
+  93.3% {
+    top: calc(50% - 50px);
+    right: 9.6rem;
+  }
+  96.5% {
+    top: calc(50% - 40px);
+    right: 10.4rem;
+  }
+  100% {
+    top: calc(50% - 50px);
+    right: 10.5rem;  
+  }
 }
 
 .list {
