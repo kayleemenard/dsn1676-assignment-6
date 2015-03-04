@@ -87,7 +87,7 @@ div {
   max-height: 100%;
 }
 
-.circle {
+.ball {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
@@ -96,8 +96,8 @@ div {
   border-radius: 50%;
 }
 
-.js-circle-bounce {
-    -webkit-animation: ball-bounce 750ms linear;
+.js-ball-bounce {
+  -webkit-animation: ball-bounce 750ms linear;
 }
 
 @-webkit-keyframes ball-bounce {
