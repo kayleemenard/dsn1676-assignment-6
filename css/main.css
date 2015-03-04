@@ -80,7 +80,7 @@ div {
 .panel h2 {
   margin: 0;
   max-height: 0;
-  padding: 4rem 0;
+  padding: 3rem 0 5rem;
 }
 
 .js-expand {
