@@ -35,7 +35,6 @@ $ball.on('webkitAnimationEnd animationend', function() {
 
 $btnAppend.on('click', function() {
 	var $li = $('<li>New List Item</li>');
-	$list.append($li)
-	$li.addClass('js-li-append')
+	$list.append($li);
+	$li.addClass('js-li-append');
 })
-
