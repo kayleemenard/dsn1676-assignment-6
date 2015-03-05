@@ -187,7 +187,7 @@ div {
 }
 
 .js-li-append {
-  animation: list-append 1s linear;
+  animation: list-append 200ms linear;
 }
 
 @keyframes list-append {
